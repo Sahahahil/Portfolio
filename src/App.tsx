@@ -9,7 +9,7 @@ import Hero from "./components/Hero";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contacts";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
