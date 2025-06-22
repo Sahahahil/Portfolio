@@ -99,7 +99,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
                 <div className={`relative w-80 h-80 mx-auto rounded-full overflow-hidden border-4 ${
                   darkMode ? 'border-gray-700' : 'border-gray-200'
                 } shadow-2xl`}>
-                  <img src="/images/me.png" alt="Profile picture of Sahil" className="h-full w-full object-cover" />
+                  <img src={`${import.meta.env.BASE_URL}images/me.png`} alt="Profile picture of Sahil" className="h-full w-full object-cover" />
                 </div>  
               </div>
 
