@@ -96,11 +96,11 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               <div className={`relative w-80 h-80 mx-auto rounded-full overflow-hidden border-4 ${
                 darkMode ? 'border-gray-700' : 'border-gray-200'
               } shadow-2xl`}>
-                <div className={`w-full h-full flex items-center justify-center text-6xl font-bold ${
-                  darkMode ? 'bg-gray-800 text-gray-300' : 'bg-gray-100 text-gray-600'
-                }`}>
-                  <img src="/home/sahil/Downloads/me.png" alt="Description of image" className="h-full w-full object-contain" />
-                </div>
+                <div className={`relative w-80 h-80 mx-auto rounded-full overflow-hidden border-4 ${
+                  darkMode ? 'border-gray-700' : 'border-gray-200'
+                } shadow-2xl`}>
+                  <img src="/home/sahil/Downloads/me.png" alt="Profile picture of Sahil" className="h-full w-full object-cover" />
+                </div>  
               </div>
 
               {/* Floating Elements */}
