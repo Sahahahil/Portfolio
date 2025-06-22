@@ -99,7 +99,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
                 <div className={`w-full h-full flex items-center justify-center text-6xl font-bold ${
                   darkMode ? 'bg-gray-800 text-gray-300' : 'bg-gray-100 text-gray-600'
                 }`}>
-                  SD
+                  <img src="/home/sahil/Downloads/me.png" alt="Description of image" className="h-full w-full object-contain" />
                 </div>
               </div>
 
