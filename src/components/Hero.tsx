@@ -123,8 +123,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
                 <img
                   src={`${import.meta.env.BASE_URL}images/me.png`}
                   alt="Profile picture of Sahil"
-                  className="w-[28rem] h-auto object-contain"
-                />
+                  className="w-[28rem] h-auto object-contain transition-transform duration-300 ease-in-out hover:scale-110"                />
               </div>
 
               {/* Floating Labels */}
